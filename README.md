@@ -37,4 +37,5 @@ This setup is fairly complex, Thus I recommend:
 **Personal usage recommendations**:
 - Defining global targets like a `make help` target that parses the comment written on the target line
 - Defining scoped targets per project, notice that MAKEFILES defined globally would be used everywhere which is not always desired, so MAKEFILES management is desirable in such sitations. Which can be achieved through scripting.
+- Before applying the scripts in your env I recommend reading [the MAKEFILES manpage](https://www.gnu.org/software/make/manual/html_node/MAKEFILES-Variable.html) first.
 
