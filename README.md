@@ -11,7 +11,7 @@ This repo illustrates how to organize complex global Makefile targets.
 export MAKEFILES_HOME="$HOME/.config/makefiles"
 if [ -d ${MAKEFILES_HOME}/public ]; then
 # Include all .mk files in ${MAKEFILES_HOME}/public
-export MAKEFILES="$(find ${MAKEFILES_HOME}/public -name '*.mk' -print0 | xargs -0 echo | tr ' ' ':')"
+export MAKEFILES="$(find ${MAKEFILES_HOME}/public -name '*.mk' -print0 | xargs -0 echo)"
 fi
 ```
 
