@@ -27,7 +27,7 @@ It may be desired to have sub-directories under `public` to present multiple nam
 
 ### Recommendation
 
-Note: this setup is fairly complex, Thus I recommend:
+This setup is fairly complex, Thus I recommend:
 
 - Using global make targets only when the targets are not desired to be associated with a single project is desired.
 - Using simple targets as much as possible
