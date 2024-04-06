@@ -34,3 +34,7 @@ This setup is fairly complex, Thus I recommend:
 - Deferring as much logic to scripts
 - Resorting to public/internal split only when reusability between different makefiles is desired which could be a complex scenario enough for such split.
 
+**Personal usage recommendations**:
+- Defining global targets like a `make help` target that parses the comment written on the target line
+- Defining scoped targets per project, notice that MAKEFILES defined globally would be used everywhere which is not always desired, so MAKEFILES management is desirable in such sitations. Which can be achieved through scripting.
+
