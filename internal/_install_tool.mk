@@ -4,7 +4,7 @@ TOOL_BIN = /usr/local/bin/$(TOOL_NAME)
 TOOL_TMP = /tmp/$(TOOL_NAME)-$(TOOL_VERSION)
 
 # Original Code, not easy to maintain yet clearly colcated
-# _install-tool:
+# _install-tool_embedded_script:
 # 	@echo "Attempting to download $(TOOL_NAME) version $(TOOL_VERSION)..."
 # 	@status=$$(curl -L -w "%{http_code}" -o $(TOOL_TMP) "$(TOOL_URL)" -s -S); \
 # 	if [ "$$status" -ne 200 ]; then \
